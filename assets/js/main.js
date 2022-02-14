@@ -117,3 +117,13 @@ cr.reveal(`.home__social, .home__scroll`, {
     delay: 900,
     origin: 'bottom'
 })
+
+
+document.addEventListener("click", function(){
+    if(document.getElementById("btn__changelanguage").innerText === "Vietnamese"){
+        document.getElementById("btn__changelanguage").innerText = "English"
+    }
+    else{
+        document.getElementById("btn__changelanguage").innerText = "Vietnamese"
+    }
+})
