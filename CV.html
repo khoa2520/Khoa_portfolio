@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/cv.css">
+    <link rel="stylesheet" href="./assets/css/lightbox.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+    <title>Chỉnh Sửa Video</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="rightside">
+            <div class="rightside__box">
+                <div class="rightside__container">
+                    <div class="rightside__avatar">
+                        <img src="./assets/img/backoke.jpg" alt="">
+                    </div>
+                    <div class="rightside__name">
+                        <h1>Đăng Khoa</h1>
+                    </div>
+                    <div class="rightside__description">
+                        <h1>FrontEnd Developer</h1><br>
+                        <h1>Graphic Designer</h1>
+                    </div>
+                    <div class="rightside__local">
+                        <i class="fas fa-map-marker-alt local__icon"></i>
+                        Châu Thành, An Giang
+                    </div>
+                </div>
+                <div class="home btn">
+                    <a href="./index.html"><i class="fas fa-home home__icon"></i> Trang Chủ
+                    </a>
+                </div>
+                <div class="contact__btn btn">
+                    <a href="https://www.behance.net/nguynngkhoa3">
+                        <i class="fab fa-behance contact__icon"></i>
+                        Behance
+                    </a>
+                </div>
+                <div class="contact__btn btn">
+                    <a href="https://www.facebook.com/profile.php?id=100007340288042">
+                        <i class="fab fa-facebook-f contact__icon"></i>
+                        Facebook
+                    </a>
+                </div>
+                <div class="rightside__des">
+                    <span class="rightside__title">Liên Lạc :</span>
+
+                    <div class="des__box">
+                        <div class="des__title">
+                            <span class="des__title-email">Email:</span>
+                            <span class="des__title-email">SĐT:</span>
+
+                        </div>
+                        <div class="des__des">
+                            <span class="des__des-email">khoand19406c@st.uel.edu.vn</span>
+                            <span class="des__des-email">032 6123 397 (zalo)</span>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="leftside">
+            <button id="btn_download" onclick="document.getElementById('link').click()">Download CV</button>
+            <a id="link" href="./assets/pdf/DangKhoa_Frontend_Intern.pdf" download hidden></a>
+            <div class="gallery">
+                <div class="cv__show">
+                    <iframe src="./assets/pdf/DangKhoa_Frontend_Intern.pdf" height="1000px" width="100%"
+                        title="Khoa_CV"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        document.querySelectorAll('.gallery video').forEach(vid => {
+            vid.onclick = () => {
+                document.querySelector('.popup-video').style.display = 'block';
+                document.querySelector('.popup-video video').style.width = 80 + '%';
+                document.querySelector('.popup-video video').src = vid.getAttribute('src');
+
+                if (document.querySelector('.popup-video video').muted = true) {
+                    document.querySelector('.popup-video video').muted = false;
+                    document.querySelector('.popup-video video').autoplay = true;
+                }
+            }
+        });
+        document.querySelector('.popup-video span').onclick = () => {
+            document.querySelector('.popup-video').style.display = 'none';
+            document.querySelector('.popup-video video').muted = true;
+        }
+    </script>
+</body>
+
+</html>
