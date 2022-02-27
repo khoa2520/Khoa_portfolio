@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Facebook Clone",
+        "img": "./assets/img/webimg/fb.png",
+        "link": "https://khoa2520.github.io/Clone_Facebook/"
+    },
+    {
+        "title": "Todo-React",
+        "img": "./assets/img/webimg/todo.png",
+        "link": "https://github.com/khoa2520/Todo-list-React"
+    },
+    {
+        "title": "Shoppe Clone",
+        "img": "./assets/img/webimg/sp.png",
+        "link": "https://khoa2520.github.io/Clone_Shopee/"
+    },
+    {
+        "title": "AngularJS",
+        "img": "./assets/img/webimg/a.png",
+        "link": "https://khoa2520.github.io/AngularJS_renderData/"
+    },
+    {
+        "title": "ZingMP3 Clone",
+        "img": "./assets/img/webimg/zing.png",
+        "link": "https://khoa2520.github.io/Clone_ZingMp3/"
+    },
+    {
+        "title": "EPTRAVEL Project team University",
+        "img": "./assets/img/webimg/eptravel.png",
+        "link": "https://khoa2520.github.io/EPTRAVEL_HTML_CSS_JS_only/index.html"
+    }
+   
+]

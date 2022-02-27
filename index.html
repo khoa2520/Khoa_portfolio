@@ -64,7 +64,7 @@
             <div class="func-change">
                 <i class='bx bx-moon change-theme' id="theme-button"></i>
                 <div style='display: block;'>
-                    <button id="btn__changelanguage" class="btn6">Vietnamese</button>
+                    <button onclick="changebtn()" id="btn__changelanguage" class="btn6">Vietnamese</button>
                 </div>
             </div>
         </nav>
@@ -77,7 +77,7 @@
         <section class="home section" id="home">
             <div class="home__container container grid">
                 <div class="home__data">
-                    <span class="home__greeting">Tôi Là</span>
+                    <span class="home__greeting">Hi, Xin chào !!! Tôi Là</span>
                     <h1 class="home__name">Nguyễn Đăng Khoa</h1>
                     <h3 class="home__education"><b style="font-size:20px">Front-end Developer</b><br>Graphic
                         Designer<br><br>
@@ -86,6 +86,10 @@
                             <a href="./cv.html" class="button button--ghost" target="_blank">
                                 Xem CV
                             </a>
+                            <a href="https://github.com/khoa2520" class="button button--ghost" target="_blank">
+                                Xem Github
+                            </a>
+                            <a href="#work" class="button">Xem sảm phẩm</a>
                             <a href="#about" class="button">Giới Thiệu</a>
                         </div>
                 </div>
@@ -261,7 +265,7 @@
         </section>
 
         <!--=============== SERVICES ===============-->
-        <section class="services section">
+        <!-- <section class="services section">
             <span class="section__subtitle">Dịch Vụ</span>
 
             <h2 class="section__title">Cung Cấp Các Dịch Vụ</h2>
@@ -430,8 +434,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-
+        </section> -->
+       
         <!--=============== WORK ===============-->
         <section class="work section" id="work">
             <span class="section__subtitle">My Portfolio</span>
@@ -445,11 +449,31 @@
             </div>
 
             <div class="work__container container grid">
+                <div class="work__card mix movil">
+                    <img src="./assets/img/work5.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Thiết Kế Web</h3>
+                    <a href="./web_pro.html" target="" class="work__button">
+                        Sản Phẩm <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+                <div class="work__card mix behance">
+                    <img src="./assets/img/work5.jpg" alt="" class="work__img">
+
+
+            
+
+
+                    <h3 class="work__title my-btn">Một Số Dự Án Nổi Bật Tại Behance</h3>
+                    <a href="" target="" class="work__button">
+                        Sản Phẩm <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
                 <div class="work__card mix web">
                     <img src="./assets/img/work1.jpg" alt="" class="work__img">
 
                     <h3 class="work__title">Thết Kế Đồ Họa</h3>
-                    <a href="" target="_blank" class="work__button">
+                    <a href="" target="" class="work__button">
                         Sản Phẩm <i class='bx bx-right-arrow-alt work__icon'></i>
                     </a>
                 </div>
@@ -458,27 +482,12 @@
                     <img src="./assets/img/work4.jpg" alt="" class="work__img">
 
                     <h3 class="work__title">Edit Video</h3>
-                    <a href="" target="_blank" class="work__button">
+                    <a href="" target="" class="work__button">
                         Sản Phẩm <i class='bx bx-right-arrow-alt work__icon'></i>
                     </a>
                 </div>
 
-                <div class="work__card mix movil">
-                    <img src="./assets/img/work5.jpg" alt="" class="work__img">
 
-                    <h3 class="work__title">Thiết Kế Web</h3>
-                    <a href="" target="_blank" class="work__button">
-                        Sản Phẩm <i class='bx bx-right-arrow-alt work__icon'></i>
-                    </a>
-                </div>
-                <div class="work__card mix behance">
-                    <img src="./assets/img/work5.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">Một Số Dự Án Nổi Bật Tại Behance</h3>
-                    <a href="" target="_blank" class="work__button">
-                        Sản Phẩm <i class='bx bx-right-arrow-alt work__icon'></i>
-                    </a>
-                </div>
             </div>
         </section>
 
@@ -557,7 +566,15 @@
             </div>
         </section>
     </main>
+    <div class="alert-box hide hidden">
+        Message Text Here
+        <span class="close-alert">&times;</span>
+    </div>
+    <link rel="stylesheet" href="./assets/css/animation.css">
 
+    <script src="./assets/js/animation.js">
+
+    </script>
     <!--=============== FOOTER ===============-->
     <footer class="footer">
         <div class="footer__container container">
