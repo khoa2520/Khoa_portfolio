@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Logo Trà Sữa",
+        "img": "./assets/img/designImg/logoTrasua.jpg"
+    },
+    {
+        "title": "Dầu Gội HerBlush",
+        "img": "./assets/img/designImg/daugoi1.png"
+    },
+    {
+        "title": "Dầu Gội HerBlush",
+        "img": "./assets/img/designImg/daugoi2.png"
+    },
+    {
+        "title": "Bìa Facebook Chả mực Havina",
+        "img": "./assets/img/designImg/biachamuc.png"
+    },
+    {
+        "title": "Thẩm Mỹ Nhung Đặng",
+        "img": "./assets/img/designImg/beautylogo.png"
+    },
+    
+    {
+        "title": "Bìa nhà hàng",
+        "img": "./assets/img/designImg/nhahang.png"
+    },
+    {
+        "title": "Banner Trà Sữa",
+        "img": "./assets/img/designImg/trasua1.png"
+    },
+    {
+        "title": "Banner Trà Sữa",
+        "img": "./assets/img/designImg/trasua2.png"
+    },
+    {
+        "title": "Banner Trà Sữa",
+        "img": "./assets/img/designImg/trasua3.png"
+    },
+    {
+        "title": "Banner Trà Sữa",
+        "img": "./assets/img/designImg/trasua4.png"
+    },
+    {
+        "title": "Banner Trà Sữa",
+        "img": "./assets/img/designImg/trasua5.png"
+    }
+]
